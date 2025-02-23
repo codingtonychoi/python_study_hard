@@ -112,9 +112,6 @@ waffle은 WaffleMachine의 객체임을 확인할 수 있음.
         
 '''
 
-
-
-
 # class Person:
 #     def display_info(self, name, age, tel, address):
 #         self. tel = tel
