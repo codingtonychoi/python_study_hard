@@ -1,3 +1,6 @@
+
+# turtle 이라는 모듈을 사용할 건데, Turtle, Screen 클래스를 import 할 겁니다.
+
 from turtle import Turtle, Screen
 
 t = Turtle()        # Turtle 클래스의 객체 생성, 이름은 t
@@ -7,10 +10,16 @@ t.shape("turtle")
 t.color("white")
 screen.bgcolor("black")
 
-# t.penup()
+# t.penup()             # pen을 들고 있어서 trace가 안 남음.
 # t.forward(100)
 # t.pendown()
 # t.forward(200)
+
+# for _ in range(10):       # 변수 사용하지 않고 반복만 하기 때문에 _ 사용.
+#     t.penup()
+#     t.forward(20)
+#     t.pendown()
+#     t.forward(20)
 
 # t.left(90)
 # t.forward(100)
@@ -178,11 +187,11 @@ def draw_spirograph(size_of_gap):
         t.setheading(t.heading()+ size_of_gap)
 
 t.speed(0)
-draw_spirograph(50)
+draw_spirograph(5)
 
 # print(300/7)
 # print(int(300/7))
-# print(300//7
+# print(300//7)
 
 
 
